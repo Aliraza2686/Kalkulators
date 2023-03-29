@@ -1,0 +1,417 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+#141125 */
+body{
+    margin: 0;
+    padding: 0;
+    background: #F5F5F5;
+}
+.jumbo {
+    position: relative;
+}
+.sidebar {
+    background: linear-gradient(180.04deg, #101828 1.28%, #0D1B37 99.81%, #0A1E46 99.96%);
+    position: absolute;
+    width: 7.8125vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+.title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.w1 {
+    margin-top: 2.5vw;
+}
+
+.sidebar svg {
+    cursor: pointer;
+}
+
+.relations {
+    color:  #BBBBBB;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 300;
+}
+.home {
+    position: relative;
+}
+.toggler {
+    position: absolute;
+    left: 92px;
+    top: 45px;
+    cursor: pointer;
+   
+}
+.left-card {
+    position: absolute;
+    left: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+    height: 90vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.welcome{ 
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 700;
+}
+.we-p {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.quick {
+    display: flex;
+    background: #B695F8;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+.subs {
+    font-size: 12px;
+}
+.start-subs {
+    background: linear-gradient(180.04deg, #101828 1.28%, #0D1B37 99.81%, #0A1E46 99.96%);
+    color: #fff;
+    border-radius: 5px;
+}
+.two-factor {
+    font-family: 'Poppins';
+    font-weight: 400;
+    border: 1px solid rgb(3, 3, 42);
+    border-radius: 5px;
+}
+.right-card {
+    position: absolute;
+    overflow: hidden;
+    right: 180px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 470px;
+    height: 90vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.e-top {
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.e-message {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    color: #666;
+}
+
+.email-section {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 12px;
+}
+.email-section input{
+
+    border: 1px solid rgb(3, 3, 42);
+    border-radius: 10px;
+    width: 25vw;
+    height: 6vh;
+    margin-top: 5px;
+}
+.sendbtn button {
+    background: linear-gradient(180.04deg, #101828 1.28%, #0D1B37 99.81%, #0A1E46 99.96%);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+.otp-varification h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.otp-varification .otp-inputs input {
+    border: 1px solid #979797;
+    width: 90%;
+    height: 6vh;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+.e-text {
+    font-size: 10px;
+}
+.resend-confirmation {
+    font-family: 'Poppins';
+    font-style: mixed;
+    font-weight: 400;
+    font-size: 14px;
+}
+@media(max-width : 600px) {
+    .left-card {
+        position: absolute;
+        width: 100%;
+        height: 85vh;
+        left: 0px;
+        top: 0px;
+        border-radius: 0;
+    }
+  
+}
+
+
+.second-screen {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.second-cards-container {
+    display: grid;
+    grid-template-columns: 20% 40% 30% 5%; 
+  
+}
+
+.inner-item-2 {
+    background: #fff;
+    border-radius: 10px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     width: 90%;
+    height: 90vh;
+    margin-left: 40px;
+}
+.inner-item-3 {
+    background: #fff;
+    border-radius: 10px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     width: 90%;
+    height: 90vh;
+}
+
+.thing-card {
+    width: 50%;
+}
+
+.t-h {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.first-thing {
+    background: linear-gradient(180.04deg, #101828 1.28%, #0D1B37 99.81%, #0A1E46 99.96%);
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 10px;
+}
+.first-thing h1, .second-things h1, .third-things h1 {
+    font-weight: 500;
+}
+
+.second-things {
+    border: 1px solid rgb(3, 3, 42);
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.third-things {
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+}
+ 
+.colive-img {
+    width: 35%;
+}
+
+.colive-details h1 {
+   font-family: 'Poppins';
+   font-weight: 500;
+   font-size: 19px;
+}
+.colive-details {
+    font-size: 14px;
+}
+.bio h1 {
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.bio p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) { 
+    .second-cards-container {
+      grid-template-columns: 1fr 1fr; 
+    }
+    
+    .item1 {
+      grid-column: 1 / span 2; 
+      display: none;
+    }
+    
+    .item2 {
+      grid-row: 2; 
+    }
+    
+    .item3 {
+      grid-row: 2;
+    }
+    
+    .item4 {
+      grid-row: 3; 
+    }
+  }
+
+  @media (max-width: 600px) { 
+    .second-cards-container {
+      grid-template-columns: 1fr; 
+    }
+    
+    .item1 {
+      grid-column: 1; 
+    }
+    .inner-item-2 {
+        width: 100%;
+        margin: 0;
+    }
+    .item2 {
+      grid-row: 2; 
+    }
+    
+    .item3 {
+      grid-row: 3; /* move item3 to third row */
+    }
+    
+    .item4 {
+      grid-row: 4; /* move item4 to fourth row */
+    }
+  }
+
+@media(max-width : 1000px) {
+    .sidebar {
+        display: none;
+    }
+    .toggler {
+       display: none;
+    }
+    .right {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.home-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 26% 35% 5%;
+    grid-gap: 10px;
+  }
+
+  .second-layer {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 90vh;
+  }
+  .third-layer {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 90vh;
+  }
+
+  
+@media (max-width: 768px) { 
+    .grid-container {
+      grid-template-columns: 1fr 1fr; 
+    }
+    
+    .item-first {
+      grid-column: 1 / span 2; 
+      display: none;
+    }
+    
+    .item-second{
+      grid-row: 2; 
+    }
+    
+    .item-third {
+      grid-row: 2;
+    }
+    
+    .item-fourth {
+      grid-row: 3; 
+    }
+  }
+
+  @media (max-width: 600px) { 
+    .second-cards-container {
+      grid-template-columns: 1fr; 
+    }
+    
+    .item-first {
+      grid-column: 1; 
+    }
+    .second-layer {
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+    }
+    .third-layer {
+        width: 100%;
+        height: 100vh;
+    }
+    .item-second {
+      grid-row: 2; 
+      width: 100%;
+    }
+    
+    .item-third {
+      grid-row: 3; 
+    }
+    
+    .item-fourth {
+      grid-row: 4; 
+    }
+  }
